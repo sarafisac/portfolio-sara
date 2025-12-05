@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sara | Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Serif & Sans Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family:Playfair+Display:wght@400;700&family:Inter:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="logo">SARA</div>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="#about">Sobre mí</a></li>
+          <li><a href="#projects">Proyectos</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+      <button id="theme-toggle">🌙</button>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section class="hero">
+        <div class="hero-text">
+          <h1>Sara</h1>
+          <p class="tagline">Ilustradora y creadora de mundos visuales.</p>
+          <a class="cta" href="#projects">Ver proyectos</a>
+        </div>
+        <div class="hero-img">
+          <img
+            src="assets/images/ilustracion.png"
+            alt="Ilustración autorretrato Sara"
+          />
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+
+    <section id="projects" class="projects">
+      <h2 class="section-title">Proyectos</h2>
+
+      <div class="project-grid">
+        <!-- LIBRO INFANTIL -->
+        <article class="project-card">
+          <img
+            src="assets/images/libro-infantil.png"
+            alt="Portada libro infantil"
+          />
+          <div class="project-info">
+            <h3>“El Bosque de las Cosquillas”</h3>
+            <p>
+              Libro infantil ilustrado — Aventuras mágicas entre criaturas
+              adorables.
+            </p>
+            <span class="tag">Ilustración</span>
+            <span class="tag">Narrativa visual</span>
+          </div>
+        </article>
+
+        <!-- CÓMIC -->
+        <article class="project-card">
+          <img src="assets/images/comic.png" alt="Comic ilustrado" />
+          <div class="project-info">
+            <h3>“Café a Medianoche”</h3>
+            <p>
+              Cómic slice-of-life con personajes expresivos y atmósfera íntima.
+            </p>
+            <span class="tag">Comic Art</span>
+            <span class="tag">Storytelling</span>
+          </div>
+        </article>
+
+        <!-- SAGA DE LIBROS -->
+        <article class="project-card">
+          <img
+            src="assets/images/saga-libros.png"
+            alt="Portadas de saga literaria"
+          />
+          <div class="project-info">
+            <h3>“Crónicas del Viento”</h3>
+            <p>
+              Serie de 4 portadas editoriales — diseño elegante con narrativa
+              visual.
+            </p>
+            <span class="tag">Editorial</span>
+            <span class="tag">Portadas</span>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section id="about" class="about">
+      <h2 class="section-title">Sobre mí</h2>
+
+      <div class="about-content reveal">
+        <img
+          class="about-img"
+          src="https://ik.imagekit.io/TU-CARPETA/ilustracion-about.png"
+          alt="Ilustración de Sara"
+        />
+
+        <div class="about-text">
+          <p>
+            <strong>Hola! Soy Sara, ilustradora y diseñadora gráfica.</strong>
+          </p>
+          <p>
+            Me encanta crear imágenes que cuenten historias: personajes
+            curiosos, mundos coloridos y escenas que invitan a mirar dos veces.
+          </p>
+          <p>
+            Trabajo entre lo digital y lo tradicional, enfocada en
+            <strong>proyectos editoriales e ilustración infantil</strong>. Me
+            motiva que cada proyecto conecte con las personas y despierte
+            imaginación.
+          </p>
+
+          <a href="#contact" class="about-btn">Hablemos ✨</a>
+          <script src="script.js"></script>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
